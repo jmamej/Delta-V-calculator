@@ -9,7 +9,6 @@ Rm = 1.7374*10^6;
 %%sun data
 Ms = 1.9885*10^30;
 Rs = 6.96342*10^8;
-
 while 1
     syms mode;
     mode = input("Calculate: orbital velocity - 1, delta V - 2, Exit - 3\n");
@@ -26,7 +25,6 @@ while 1
         fprintf("Wrong input!\n\n");
     end
 end
-
 %Primary body choice
 while 1
     syms x1;
@@ -47,7 +45,6 @@ while 1
         fprintf("Wrong input!\n\n");
     end
 end
-
 mi = M*G;
 %orbit parameters setting
 while 1
@@ -97,7 +94,6 @@ while 1
         break;
     end
 end
-%-------------------------------------------------------------------------------------------------------------
 %establiching moment of injection. 
 if mode == 1
     a = (Rp + Ra)./2;
