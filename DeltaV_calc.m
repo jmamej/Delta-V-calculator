@@ -105,7 +105,7 @@ if mode == 1
         unitV = " m/s\n";
     end
     fprintf("Orbital velocity = " + V + unitV);
-    fprintf("End of code");
+    fprintf("End of code\n");
 elseif mode == 2
     while 1
        syms y;
@@ -153,7 +153,7 @@ else
 end
 fprintf("Delta V = " + Vf + unitVf);
 fprintf("Injection into circular orbit = " + Vc + unitVc);
-fprintf("End of code");     
+fprintf("End of code\n");     
 else
     fprintf("Error! Wrong mode!\n");
 end
