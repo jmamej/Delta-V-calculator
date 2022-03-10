@@ -6,7 +6,7 @@ Requirements:
 - injection only at apoapse or peryapse
 
 
-'''
+'''Matlab
 while 1
     syms x1;
     x1 = input("Chose primary body.\nEarth - 1, Moon - 2, Sun - 3\n");
